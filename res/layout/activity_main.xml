@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.weaiken.textSearch.main.MainActivity" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="Mr. Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr. Johnson was very worried about accepting. Finally, however, his friend persuaded him that it was very safe, and Mr. Johnson boarded the plane.
+　　His friend started the engine and began to taxi onto the runway of " />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/textview"
+        android:gravity="center"
+         android:onClick="onClickService"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Button" />
+
+</RelativeLayout>
